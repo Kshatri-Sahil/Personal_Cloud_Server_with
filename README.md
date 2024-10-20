@@ -148,7 +148,7 @@ After starting Ngrok, it will provide you with a public URL (https://b383-106-22
 
 1. Restart Apache:
 >sudo systemctl restart apache2
-3. Check Ngrok status:
+2. Check Ngrok status:
 >ps aux | grep ngrok
  
 # Step 11: Nextcloud login and Setup
