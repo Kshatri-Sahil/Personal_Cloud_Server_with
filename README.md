@@ -146,8 +146,10 @@ After starting Ngrok, it will provide you with a public URL (https://b383-106-22
 
 # Step 10: Managing Nextcloud and NgrokTo monitor or manage your Nextcloud instance:
 
-1. Restart Apache: >sudo systemctl restart apache2
-2. Check Ngrok status: >ps aux | grep ngrok
+1. Restart Apache:
+>sudo systemctl restart apache2
+3. Check Ngrok status:
+>ps aux | grep ngrok
  
 # Step 11: Nextcloud login and Setup
 
@@ -170,3 +172,7 @@ Now you can login through the user account (eg: sahil)
 # Step 13: Setting up Nextcloud through mobile app.
 
 Accessing the account through mobile app. 
+Download Nextcloud app from playstore.
+
+Enter the ip address which you got from ngrok terminal.
+
